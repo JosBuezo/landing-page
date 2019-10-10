@@ -1,0 +1,55 @@
+.section1 {background: black; display: flex;}
+.nav-link {color:gray; font-size: 14px;}
+.navbar-brand {color: gray; font-size: 20px;}
+.container-hero {  height: 100%;
+widows: 100%;
+  text-align: center;
+position: absolute;
+top: 150px;
+}
+.centered-hero h1{
+    font-size: 75px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 20%;
+    left: 50%;
+    background: white;
+    padding: 20px; width: 100%;
+}
+.bottom-hero p{
+font-size: 50px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 33%;
+    left: 50%;
+    background: white;
+    padding: 3px; width: 100%;
+}
+body{
+    background: #BDBDBD;
+}
+.services-container{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+.img-services{
+    float: left;
+    border-radius: 600px;
+}
+.services-container span{
+color: gray;
+}
+.services-desc{
+    margin-top: 30px;
+    padding-left: 0px;
+}
+.flexCards{
+    display: flex;
+    max-width: 100rem;
+    max-height: 60rem;
+  flex-basis: auto;
+  margin: 50px;
+  padding-right: 20px;
+
+}
